@@ -9,3 +9,10 @@
 }
 
 
+.cardBook{
+  padding: 5px;
+  background-color: #DEDEDE;
+  width: 300px;
+  border-radius: 10px;
+  margin: 10px;
+}

@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
 
-      <div className='container'></div>
+      <div className='cardBook'>
       <h1>As cavernas de aço</h1>
       <h3>Isaki asimovi</h3>
 
@@ -15,6 +15,7 @@ function App() {
            Na trama, Os Mundos Siderais, antigas colônias da Terra, possuem rígidas leis de imigração, e não aceitam mais terráqueos em seus planetas. 
            Para agravar a situação, os robôs estão substituindo grande parte da mão de obra trabalhadora na Terra, 
            levando os humanos a perderem seus empregos e privilégios de cidadãos.</p>
+      </div>
     </div>
   );
 }
