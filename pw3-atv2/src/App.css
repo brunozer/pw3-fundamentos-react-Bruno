@@ -1,0 +1,50 @@
+.App {
+  display: flex;
+  margin-top: 3rem;
+  text-align: center;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+body {
+  background-color: lightblue;
+  text-align: center;
+  margin-top: 5rem;
+ 
+}
+.container {
+  width: 640px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 2rem;
+  text-align: left;
+  border-radius: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid lightslategray;
+}
+
+button {
+  color: white;
+  cursor: pointer;
+  padding: 8px;
+  background-color: lightslategray;
+  border: 1px solid black;
+  border-radius: .5rem;
+  width: 10rem;
+  align-self: center;
+}
+
+button:hover {
+  background-color: lightseagreen;
+  transition: .5s;
+}
